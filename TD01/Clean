@@ -1,0 +1,5 @@
+#To reset the directory
+
+rm contents.txt
+rm -rf projectV2
+rm pv2.tar
