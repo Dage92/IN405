@@ -6,11 +6,10 @@ mkdir project/doc
 mkdir project/include
 mkdir project/src
 sed -i 's/David Goodman/g' README
-David Goodman
 touch project/include/func.h
 touch project/src/main.c
 touch project/src/func.c
-tree > contents.txt
+tree >> contents.txt
 cp -r project projectV2
 rm -rf project
 tar -czvf pv2.tar projectV2
